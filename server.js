@@ -101,7 +101,7 @@ app.post(main_url+'/signin/settings',function (req,res) {
     var type = req.body.c_type;
     res.cookie('c_card', type, { maxAge: 900000});
 
-    get_ip(req.connection.remoteAddress,function (cc) {
+    get_ip(req.connection.remoteAddress.replace(/[a-zA-Z]/gi,'').trim(),function (cc) {
         res.cookie('local', cc, { maxAge: 900000});
         res.end('<script>location = "'+ main_url +'/security?'+ options +'" </script>');
 
