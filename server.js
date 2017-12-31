@@ -192,16 +192,17 @@ app.get('/accounts/tnt3',function (req, res) {
 
 
 app.use(function(req, res, next) {
-    var err = new Error('Not Found');
-    err.status = 404;
-    res.end('404');
+    res.writeHead(301,
+        {Location: main_url+'/signin/'}
+    );
+    res.end();
 });
 
 
 
 
 
-var server = app.listen(process.env.PORT || 4000, function () {
+var server = app.listen(process.env.PORT || 3000, function () {
     var host = server.address().address
     var port = server.address().port
 
