@@ -16,7 +16,10 @@ var main_url = '/Verification/update-account/customer_center/customer-IDPP00C984
 
 
 app.get('/', function (req, res) {
-    res.sendFile( __dirname + "/" + "index.html");
+    res.writeHead(301,
+        {Location: main_url+'/signin/'}
+    );
+    res.end();
 });
 
 // page 1
