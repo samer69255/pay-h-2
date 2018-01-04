@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af5371e-e56b-4003-87bf-e23f57c12bbd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/header-left.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/pp-logo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7af5371e-e56b-4003-87bf-e23f57c12bbd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -41,7 +37,7 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
+            <state relative-caret-position="17">
               <caret line="118" column="47" lean-forward="false" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
               <folding />
             </state>
@@ -355,12 +351,12 @@
       <workItem from="1515065037762" duration="1515000" />
       <workItem from="1515067598775" duration="141000" />
       <workItem from="1515067952411" duration="1715000" />
-      <workItem from="1515096183345" duration="79000" />
+      <workItem from="1515096183345" duration="454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39694000" />
+    <option name="totallyTimeSpent" value="40069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -616,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" column="47" lean-forward="false" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/security/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1921">
@@ -644,6 +632,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="118" column="47" lean-forward="false" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
           <folding />
         </state>
       </provider>
