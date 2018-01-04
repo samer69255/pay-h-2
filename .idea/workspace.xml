@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af5371e-e56b-4003-87bf-e23f57c12bbd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/tnt1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/tnt2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/tnt3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/security/index.html" afterPath="$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/security/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/tnt1.html" afterPath="$PROJECT_DIR$/accounts/tnt1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/tnt2.html" afterPath="$PROJECT_DIR$/accounts/tnt2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/tnt3.html" afterPath="$PROJECT_DIR$/accounts/tnt3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +24,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/signin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="97" column="13" lean-forward="false" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/security/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="113" column="1784" lean-forward="false" selection-start-line="113" selection-start-column="1784" selection-end-line="113" selection-end-column="1784" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="118" column="47" lean-forward="false" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -32,8 +54,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/signin/settings/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="119" column="5806" lean-forward="false" selection-start-line="119" selection-start-column="5806" selection-end-line="119" selection-end-column="5806" />
+            <state relative-caret-position="544">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="129" selection-end-column="333" />
               <folding />
             </state>
           </provider>
@@ -52,8 +74,8 @@
       <file leaf-file-name="tnt2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts/tnt2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,8 +84,8 @@
       <file leaf-file-name="tnt3.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/accounts/tnt3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,8 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>img</find>
-      <find>INC</find>
       <find>lib</find>
       <find>../../lib</find>
       <find>time</find>
@@ -99,7 +119,6 @@
       <find>console.log</find>
       <find>4000</find>
       <find>get_ip</find>
-      <find>ip</find>
       <find>local</find>
       <find>location</find>
       <find>not</find>
@@ -111,6 +130,9 @@
       <find>s1</find>
       <find>XXXX-XXXX-XXXX-0648</find>
       <find>2017</find>
+      <find>cou</find>
+      <find>ip</find>
+      <find>phone</find>
     </findStrings>
     <replaceStrings>
       <replace>main_url + '</replace>
@@ -135,12 +157,12 @@
         <option value="$PROJECT_DIR$/public/css/INC/V_Z118.css" />
         <option value="$PROJECT_DIR$/tnt1.html" />
         <option value="$PROJECT_DIR$/public/css/INC/V-Z118.js" />
-        <option value="$PROJECT_DIR$/accounts/tnt1.html" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/security/index.html" />
         <option value="$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/signin/index.html" />
         <option value="$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/signin/settings/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/security/index.html" />
+        <option value="$PROJECT_DIR$/accounts/tnt1.html" />
         <option value="$PROJECT_DIR$/accounts/tnt2.html" />
         <option value="$PROJECT_DIR$/accounts/tnt3.html" />
       </list>
@@ -177,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +267,16 @@
               <item name="customer_center" type="462c0819:PsiDirectoryNode" />
               <item name="customer-IDPP00C984" type="462c0819:PsiDirectoryNode" />
               <item name="myaccount" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paypal2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paypal2" type="462c0819:PsiDirectoryNode" />
+              <item name="Verification" type="462c0819:PsiDirectoryNode" />
+              <item name="update-account" type="462c0819:PsiDirectoryNode" />
+              <item name="customer_center" type="462c0819:PsiDirectoryNode" />
+              <item name="customer-IDPP00C984" type="462c0819:PsiDirectoryNode" />
+              <item name="myaccount" type="462c0819:PsiDirectoryNode" />
               <item name="signin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,8 +294,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,21 +356,23 @@
       <workItem from="1514907265745" duration="198000" />
       <workItem from="1514992990930" duration="267000" />
       <workItem from="1515065037762" duration="1515000" />
-      <workItem from="1515067598775" duration="58000" />
+      <workItem from="1515067598775" duration="141000" />
+      <workItem from="1515067952411" duration="1562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37817000" />
+    <option name="totallyTimeSpent" value="39462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3316252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3316252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04731861" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -369,7 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -398,7 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -422,7 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -446,7 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -463,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,21 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/security/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="92" column="2123" lean-forward="false" selection-start-line="92" selection-start-column="2123" selection-end-line="92" selection-end-column="2123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="35" lean-forward="false" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -589,18 +603,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/signin/index.html">
+    <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/signin/settings/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="13" lean-forward="false" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+        <state relative-caret-position="544">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="129" selection-end-column="333" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/signin/settings/index.html">
+    <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/signin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="119" column="5806" lean-forward="false" selection-start-line="119" selection-start-column="5806" selection-end-line="119" selection-end-column="5806" />
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="118" column="47" lean-forward="false" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Verification/update-account/customer_center/customer-IDPP00C984/myaccount/security/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="113" column="1784" lean-forward="false" selection-start-line="113" selection-start-column="1784" selection-end-line="113" selection-end-column="1784" />
           <folding />
         </state>
       </provider>
@@ -615,16 +645,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/tnt2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/tnt3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
