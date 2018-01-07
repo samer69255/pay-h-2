@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af5371e-e56b-4003-87bf-e23f57c12bbd" name="Default" comment="" />
+    <list default="true" id="7af5371e-e56b-4003-87bf-e23f57c12bbd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/alalima.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,7 +40,7 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="2006">
               <caret line="118" column="47" lean-forward="false" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
               <folding />
             </state>
@@ -199,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,7 +296,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -303,17 +306,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\accounts" />
+      <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\public\img" />
+      <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\public\css" />
+      <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\public" />
+      <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\Verification\update-account\customer_center\customer-IDPP00C984\myaccount" />
       <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\Verification\update-account\customer_center\customer-IDPP00C984\myaccount\signin" />
       <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\Verification\update-account\customer_center\customer-IDPP00C984" />
       <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\public\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\public\img" />
-      <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\public\css" />
-      <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2\public" />
-      <recent name="C:\Users\Mohammed ALali\WebstormProjects\paypal2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -359,16 +363,17 @@
       <workItem from="1515067598775" duration="141000" />
       <workItem from="1515067952411" duration="1715000" />
       <workItem from="1515096183345" duration="1648000" />
+      <workItem from="1515312722418" duration="765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41263000" />
+    <option name="totallyTimeSpent" value="42028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3316252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3316252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -638,7 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="2006">
           <caret line="118" column="47" lean-forward="false" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
           <folding />
         </state>
@@ -657,15 +662,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/pp-logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/header-left.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/pp-logo.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/img/header-left.jpg" />
   </component>
 </project>
